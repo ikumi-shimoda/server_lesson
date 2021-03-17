@@ -1,0 +1,300 @@
+ 543  cd server_lesson
+  544  ls
+  545  git add .
+  546  git status
+  547  git commit -m 'test'
+  548  git add
+  549  ls
+  550  git push origin master
+  551  git remote -v
+  552  ls
+  553  mkdir linux_practice2
+  554  mv linux_practice linux_practice1
+  555  ls
+  556  cd linux_practice1
+  557  mkdir public tmp
+  558  mkdir public
+  559  ls
+  560  cd public/
+  561  ls
+  562  touch index.php
+  563  touch index_bk.php
+  564  ls
+  565  cd ../
+  566  cd tmp
+  567  touch index.php
+  568  ls
+  569  cd ../
+  570  ls
+  571  touch README.md
+  572  vi README.md
+  573  ls
+  574  git commit -m '課題1'
+  575  git reset --hard HEAD^
+  576  git status
+  577  git add .
+  578  git status
+  579  git commit -m '課題1'
+  580  git remote -v
+  581  git log
+  582   git commit --amend --reset-author
+  583  git commit -am "add feature"
+  584  git status
+  585  git push origin master
+  586  git remote add origin git@github.com:ikumi-shimoda/server_lesson.git
+  587  git remote -v
+  588  git push origin master
+  589  ssh-keygen -t rsa -C ikm56976832@gmail.com
+  590  ls ~/.ssh
+  591  less ~/.ssh/id_rsa.pub
+  592  id_rsa.pub
+  593  less ~/.ssh/id_rsa.pub
+  594   vi ~/.ssh/config
+  595  git push origin master
+  596  git push -u origin --all
+  597  chmod 600 ~/.ssh/config
+  598  git push origin master
+  599  git remote -v
+  600  git log
+  601  date
+  602  ls -la ~/ | grep git
+  603  ls -la
+  604  cd
+  605  cd server_lesson2
+  606  ls
+  607  ls -la
+  608  rm .git
+  609  rmdir -r .git 
+  610  rmdir .git
+  611  cd .git
+  612  ls
+  613  cd objects
+  614  ls
+  615  rm *
+  616  ls
+  617  rmdir -r server_lesson2
+  618  help
+  619  cd server_lesson
+  620  git status
+  621  git branch
+  622  git add .
+  623  git push -u origin main
+  624  cd
+  625  mkdir test
+  626  cd test
+  627  mkdir test1
+  628  ls
+  629  git init
+  630  git add .
+  631  git commit -m ''
+  632  git add
+  633  touch test.html
+  634  ls
+  635  git commit -m ''
+  636  ls
+  637  rm test.html
+  638  rmdir test1
+  639  ls
+  640  cd
+  641  rmdir test
+  642  ls
+  643  cd test
+  644  ls -la
+  645  rm *
+  646  rmdir *
+  647  cd
+  648  ls
+  649  cd server_lesson
+  650  ls
+  651  cd linux_practice2 && ls
+  652  ls
+  653  cd ../
+  654  ls
+  655  cd server_lesson
+  656  ls
+  657  git init
+  658  git add
+  659  git add .
+  660  git status
+  661  git push origin master
+  662  ls /
+  663  ls /usr
+  664  pwd
+  665  cd
+  666  cd server_lesson2
+  667  rm -rf .git/
+  668  ls
+  669  ls -la
+  670  cd linux_practice2/
+  671  rm -rf .git/
+  672  ls -la
+  673  cd ../
+  674  rmdir linux_practice2/
+  675  ls
+  676  cd
+  677  rmdir server_lesson2
+  678  ls
+  679  cd test
+  680  ls -la
+  681  rm -rf .git/
+  682  ls
+  683  cd 
+  684  rmdir test
+  685  ls
+  686  cd server_lesson/
+  687  git init
+  688  git add .
+  689  git status
+  690  git push origin master
+  691  ls
+  692  cd linux_practice2
+  693  ls
+  694  cd ../
+  695  git remote -v
+  696  sudo service network-manager restart
+  697  ls -la
+  698  cd
+  699  ls -la
+  700  cd server_lesson/
+  701  cd linux_practice2
+  702  ls -la
+  703  cd ../
+  704  git remote -v
+  705  ls -la ~/ | grep git
+  706  cd
+  707  ls -la ~/ | grep git
+  708  ls
+  709  cd server_lesson/
+  710  ls
+  711  cat README.md
+  712  ls
+  713  mkdir test
+  714  git status
+  715  ls
+  716  git add .
+  717  git status
+  718  touch test/test.html
+  719  cd test
+  720  ls
+  721  cd ../
+  722  git add. 
+  723  git add .
+  724  git stauts
+  725  git status
+  726  git commit -m 'test'
+  727  cd test
+  728  rm test.html
+  729  cd ../
+  730  rmdir test
+  731  ls
+  732  nslookup github.com
+  733  cd
+  734  nslookup github.com
+  735  github.com
+  736  cd server_lesson/
+  737  ls -la
+  738  git log
+  739  git push -u origin master
+  740  git branch
+  741  cd
+  742  sudo yum install bind-utils
+  743  sudo rpm -ql bind-utils | grep -v "gz$"
+  744  cd server_lesson/q
+  745  cd server_lesson/
+  746  github.com
+  747  nslookup github.com
+  748  sudo yum install bind-utils
+  749  ping 8.8.8.8
+  750  ping google.com
+  751  sudo vi /etc/yum.repos.d/CentOS-Base.repo
+  752  sudo yum install bind-utils
+  753  sudo vi /etc/yum.repos.d/CentOS-Base.repo
+  754  sudo yum install bind-utils
+  755  yum --version
+  756  cd
+  757  yum --version
+  758  sudo yum update
+  759  sudo yum install bind-utils
+  760  sudo yum -y update
+  761  cat /etc/resolv.conf 
+  762  ping
+  763  ping github.com
+  764  sudo vi /etc/resolv.conf 
+  765  sudo systemctl restart network.service
+  766  sudo systemctl status network.service
+  767  ping github.com
+  768  exit
+  769  sudo vi /etc/yum.repos.d/CentOS-Base.repo
+  770  sudo su
+  771  ls
+  772  cd server_lesson/
+  773  ls
+  774  git remote -v
+  775  git status
+  776  git log
+  777  git push origin master
+  778  cd linux_practice2
+  779  mkdir documents && touch gizumo{01..50}.md
+  780  cd documents
+  781  ls
+  782  cd ../
+  783  ls
+  784  mv gizumo{01..50}.md documets/.
+  785  mv gizumo{01..50}.md documents/.
+  786  ls
+  787  cd documents
+  788  ls
+  789  cd ../
+  790  mkdir trash
+  791  mv documents/gizumo{20..40}.md trash/.
+  792  cd trash 
+  793  ls
+  794  cd ../
+  795  mkdir .gitignore
+  796  vi .gitignore
+  797  ls
+  798  ls -la
+  799  vi .gitignore
+  800  cd
+  801  cd server_lesson/
+  802  cd linux_practice2
+  803  vi .gitignore
+  804  cd .gitignore
+  805  ls
+  806  vi .gitignore
+  807  cd ../
+  808  ls
+  809  history 300
+  810  mkdir exec_command.log
+  811  vi exec_command.log/
+  812  cd exec_command.log/
+  813  vi 
+  814  vi exec_com
+  815  vi exec_commanc.log
+  816  ls
+  817  cd ../
+  818  cd exec_command.log/
+  819  vi
+  820  cd ../
+  821  rmdir exec_command.log/
+  822  ls
+  823  ls -la
+  824  cd cd trash
+  825  ls -la
+  826  cd ../
+  827  cd server_lesson/
+  828  cd linux_practice2
+  829  ls -la
+  830  cd .gitignore
+  831  rm *
+  832  cd ../
+  833  rmdir .gitignore
+  834  rmdir -r .gitignore
+  835  cd .gitignore
+  836  ls -la
+  837  rm .gitignore
+  838  cd ../
+  839  rmdir .gitignore
+  840  ls
+  841  touch .gitignore
+  842  history 300
